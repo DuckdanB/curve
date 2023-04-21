@@ -1,4 +1,4 @@
-FROM debian:9
+FROM debian:11
 ENV TZ=Asia/Shanghai
 RUN echo "deb http://mirrors.163.com/debian/ stretch main\n" \
          "deb http://mirrors.163.com/debian/ stretch-updates main non-free contrib\n" \
